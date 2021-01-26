@@ -1,0 +1,59 @@
+/* Regole generali della pagina */
+ * {
+   box-sizing: border-box;
+}
+/* Regole corpo pagina */
+header {
+    background-color: #9202b3;
+    width: 70%;
+    height: 10vh;
+    margin: 0 auto;
+}
+#firstdiv {
+  background-color: #ffe640;
+  width: 70%;
+  height: 32vh;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#all {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #40a6ff;
+  width: 70%;
+  height: 35vh;
+  margin: 0 auto;
+}
+.specs {
+  width: 20%;
+  height: 35vh;
+}
+#boxsup {
+  height: 50px;
+}
+#dx {
+  float: left;
+  border-top: 7px solid #0056a1;
+  border-bottom: 7px solid #0056a1;
+}
+#center {
+  background-color: #ff7700;
+  border: 7px solid #0056a1;
+  float: left;
+  width: 60%;
+  height: 35vh;
+}
+#sx {
+  float: left;
+  border-top: 7px solid #0056a1;
+  border-bottom: 7px solid #0056a1;
+}
+footer {
+  background-color: #6600a1;
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
