@@ -5,6 +5,7 @@
 }
 body {
   background-color: #ebebeb;
+  font-family: 'Monsterrat', sans-serif;
 }
 p {
   color: grey;
@@ -16,14 +17,17 @@ header {
     width: 60%;
     height: 13vh;
     margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 img[src="img/logo.png"] {
   width: 140px;
   height: 60px;
-  margin: 5px 0 0 5px;
+  margin: 10px 0 0 10px;
 }
-ul {
-  margin-top: 10px;
+nav {
+  margin-top: 5px;
+  margin-left: 50px;
 }
 li {
   display: inline;
@@ -48,7 +52,7 @@ a {
 }
 #firstdiv {
   /* background-image: url("../img/banner.jpg");
-  background-size: contain;
+  background-size: 80%;
   background-position: center;
   background-repeat: no-repeat; */
   width: 60%;
@@ -62,6 +66,7 @@ img[src="img/banner.jpg"] {
   width: 100%;
   height: 32vh;
   border-radius: 20px;
+  object-fit: cover;
 }
 #all {
   content: "";
@@ -89,9 +94,10 @@ img[src="img/banner.jpg"] {
 }
 img[src="img/img-1.jpg"] {
   width: 200px;
-  height: 150px;
+  height: 170px;
   margin-left: 5px;
   border-radius: 20px;
+  object-fit: cover;
 }
 #center {
   float: left;
@@ -101,15 +107,16 @@ img[src="img/img-1.jpg"] {
 }
 img[src="img/banner-2.jpg"] {
   width: 100%;
-  height: 150px;
+  height: 170px;
   border-radius: 20px;
+  object-fit: cover;
 }
 #sx {
   float: left;
 }
 img[src="img/img-3.jpg"] {
   width: 230px;
-  height: 150px;
+  height: 170px;
   border-radius: 20px;
 }
 footer {
